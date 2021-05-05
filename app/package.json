@@ -1,0 +1,27 @@
+{
+  "name": "apiengineeringtest",
+  "version": "1.0.0",
+  "description": "Engineering test for Delta",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobbeVerhelst/APIEngineeringtTest.git"
+  },
+  "author": "Robbe Verhelst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobbeVerhelst/APIEngineeringtTest/issues"
+  },
+  "homepage": "https://github.com/RobbeVerhelst/APIEngineeringtTest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  }
+}
